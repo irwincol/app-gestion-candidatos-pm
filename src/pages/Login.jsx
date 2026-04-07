@@ -61,7 +61,7 @@ const Login = () => {
             id="login"
             name="login"
             type="submit"
-            onClick={singIn}
+            onClick={(e)=>singIn(e)}
           >
             login
           </button>
